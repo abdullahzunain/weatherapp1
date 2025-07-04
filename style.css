@@ -1,11 +1,11 @@
-/* Reset base styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to right, #e0f7fa, #fff);
@@ -15,14 +15,14 @@ body {
   min-height: 100vh;
 }
 
-/* Main heading */
+
 h1 {
   font-size: 2rem;
   color: #00796b;
   margin-bottom: 1.5rem;
 }
 
-/* Input field and button */
+
 input[type="text"] {
   padding: 12px 16px;
   font-size: 16px;
@@ -55,7 +55,7 @@ button:hover {
   background-color: #004d40;
 }
 
-/* Result box */
+
 #weather-result {
   margin-top: 2rem;
   padding: 1.5rem 2rem;
@@ -68,7 +68,7 @@ button:hover {
   color: #333;
 }
 
-/* Forecast list */
+
 #weather-result ol {
   margin-top: 1rem;
   padding-left: 1.2rem;
